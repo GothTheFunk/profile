@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap');
+
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: Roboto;
+  font-size: 16px;
+  color: #cacaca;
+  background-color: #212121;
+  text-align: center;
+  list-style-type: none;
+  line-height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
+  overflow: hidden;
+}
+
+h1, h2 {
+  font-weight: 100;
+  line-height: 150%;
+  margin-bottom: 50px;
+}
+
+#img-circle {
+  border-radius: 50%;
+  box-shadow:  9px 9px 18px #323232,
+  -9px -9px 18px #cacaca;
+}
+
+a {
+ text-decoration: none;
+ padding: 10px;
+ font-family: Roboto;
+ font-size: 16px;
+ font-weight: 100;
+ }
+
+.btn:hover {
+  color:#4d4d4d;
+  background-color: #cacaca;
+}
+
+.card {
+  border-radius: 3px;
+  background-color: #7e7e7e;
+  padding: 25px;
+  margin: 30px 5px;
+  box-shadow:  7px 7px 14px #050c14,
+             -7px -7px 14px #152e4e;
+  border: 1px solid #cacaca;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.socials {
+  font-size: 2em;
+  color: #cacaca;
+}
+
+.btn {
+  color:#cacaca;
+  background-color: #152e4e;
+  line-height: 40px;
+  border-radius: 3px;
+  box-shadow:  2px 2px 2px #050c14;
+}
