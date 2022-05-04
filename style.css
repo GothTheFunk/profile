@@ -33,17 +33,10 @@
 body {
   font-family: Roboto;
   font-size: 16px;
-  color: #cacaca;
+  color: white;
   background-color: #212121;
   text-align: center;
-  list-style-type: none;
-  line-height: 90%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
   background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
-  overflow: hidden;
 }
 
 h1, h2 {
@@ -55,7 +48,7 @@ h1, h2 {
 #img-circle {
   border-radius: 50%;
   box-shadow:  9px 9px 18px #323232,
-  -9px -9px 18px #cacaca;
+  -9px -9px 18px #e3e3e3;
 }
 
 a {
@@ -68,7 +61,7 @@ a {
 
 .btn:hover {
   color:#4d4d4d;
-  background-color: #cacaca;
+  background-color: #e3e3e3;
 }
 
 .card {
@@ -78,7 +71,7 @@ a {
   margin: 30px 5px;
   box-shadow:  7px 7px 14px #050c14,
              -7px -7px 14px #152e4e;
-  border: 1px solid #cacaca;
+  border: 1px solid #e3e3e3;
 }
 
 .list-inline > li {
@@ -93,13 +86,14 @@ a {
 
 .socials {
   font-size: 2em;
-  color: #cacaca;
+  color: #ffffff;
 }
 
 .btn {
-  color:#cacaca;
+  color:white;
   background-color: #152e4e;
   line-height: 40px;
   border-radius: 3px;
   box-shadow:  2px 2px 2px #050c14;
+  padding: 10px 40px;
 }
